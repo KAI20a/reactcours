@@ -23,4 +23,6 @@ function Clear()
 {
     let block = document.getElementById('inputBlock');
     block.value = '';
+    let newblock = document.getElementById('history')
+    newblock.innerHTML = '';
 }
