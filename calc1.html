@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Калькулятор</title>
+    <script src="calc1.js"></script>
+  </head>
+  <body>
+    <center>
+        <h1>Калькулятор</h1>
+        <hr />
+        <input type="text" id="inputBlock">
+        <hr />
+        <div>
+            
+            <button onclick="addInText(0)">0</button>
+            <button onclick="addInText(1)">1</button>
+            <button onclick="addInText(2)">2</button>
+            <button onclick="addInText(3)">3</button>
+            <button onclick="addInText(4)">4</button>
+            <button onclick="addInText(5)">5</button>
+            <button onclick="addInText(6)">6</button>
+            <button onclick="addInText(7)">7</button>
+            <button onclick="addInText(8)">8</button>
+            <button onclick="addInText(9)">9</button>
+        </div>
+        <hr />
+        <div>
+            <button onclick="addInText('+')">+</button>
+            <button onclick="addInText('-')">-</button>
+            <button onclick="addInText('*')">*</button>
+            <button onclick="addInText('/')">/</button>
+            <button onclick="Calc()">=</button>
+            <button onclick="Clear()">Clear</button>
+        </div>
+        <hr />
+        <h1>История действий</h1>
+        <hr />
+        <div id="history">
+
+        </div>
+        <hr />
+    </center>
+  </body>
+</html>
