@@ -17,6 +17,7 @@ function Calc()
         newblock.appendChild(p)
     } catch (error) {
         alert('Ошибка в данных. Вычисление невозможно.')
+        block.value = '';
     }
 }
 function Clear()
