@@ -14,7 +14,7 @@ function Calc()
         first = parseInt(a);
         first += '.';
         let znak = a.substr(first.length - 1, 1);
-        let second = a.substr(first.length, a.length);
+        let second = a.substr(first.length, a.length - first.length);
         first = first.substr(0, first.length - 1);
         switch(true)
         {
